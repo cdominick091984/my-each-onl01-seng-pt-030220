@@ -6,6 +6,6 @@ def my_each(array)
   end
 end
 
-my_each(array) do |name|
+my_each(num) do |name|
   puts "#{name}"
 end
