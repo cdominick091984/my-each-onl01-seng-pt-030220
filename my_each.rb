@@ -6,6 +6,7 @@ def my_each(array)
   end
 end
 
+num = [1, 2, 3, 4]
 my_each(num) do |name|
   puts "#{name}"
 end
